@@ -41,7 +41,7 @@
         <section class="section hero">
             <div class="container">
                 <h1 class="main-title">Effective Solutions for Your Business</h1>
-                <button class="order-btn" type="button">Order Service</button>
+                <button class="order-btn" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
 <!-- SECTION FEATURE -->
@@ -262,5 +262,15 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>
+                <svg width="8" height="8">
+                    <use href="images/social-icons.svg#icon-x-button"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
