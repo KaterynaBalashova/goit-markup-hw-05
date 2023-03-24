@@ -141,7 +141,7 @@ body {
     width: 48px;
     height: 4px;
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     background: #404BBF;
     border-radius: 2px;
 }
@@ -156,7 +156,7 @@ body {
     width: 66px;
     height: 4px;
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     background: #404BBF;
     border-radius: 2px;
 }
