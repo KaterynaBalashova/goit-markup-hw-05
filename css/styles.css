@@ -494,6 +494,8 @@ p {
   padding-left: 16px;
   font-size: 12px;
   line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -583,8 +585,6 @@ p {
   position: absolute;
   top: 24px;
   right: 24px;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -629,7 +629,7 @@ p {
   height: 40px;
   padding-left: 38px;
   outline: transparent;
-  /* border-color: transparent; */
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -667,8 +667,8 @@ p {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  padding-top: 8px;
-  padding-left: 16px;
+  background-color: transparent;
+  padding: 8px 16px;
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
