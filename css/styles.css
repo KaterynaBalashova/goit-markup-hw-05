@@ -412,6 +412,10 @@ p {
   width: 264px;
 }
 
+.footer-social {
+  margin-right: 80px;
+}
+
 .footer-social-title {
   font-weight: 500;
   font-size: 16px;
@@ -456,6 +460,69 @@ p {
 .social-link:focus {
   background-color: #31d0aa;
 }
+
+/* .footer-subscribe-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+} */
+
+.footer-subs-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-input-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: #2e2f42;
+  outline: transparent;
+  padding-left: 16px;
+}
+
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-btn-subsc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  border-color: transparent;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-subsc-icon {
+  fill: #fff;
+}
+
 /* #endregion Footer */
 
 /* #region backdrop */
