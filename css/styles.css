@@ -461,12 +461,12 @@ p {
   background-color: #31d0aa;
 }
 
-/* .footer-subscribe-wrap {
+.form-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-} */
+}
 
 .footer-subs-label {
   display: block;
